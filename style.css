@@ -1,105 +1,101 @@
 body {
-    background-color: black;
-    margin: 5rem 6rem;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
+  background-color: black;
+  margin: 20rem 6rem;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
 }
-
 
 h1,
 h2 {
-    margin: 0;
-    padding: 5px;
-    color: white;
-    display: inline-block;
-    font-size: 10rem;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff,
-        0 0 30px #e60073, 0 0 40px #e60073,
-        0 0 50px #e60073, 0 0 60px #e60073,
-        0 0 70px #e60073;
+  margin: 0;
+  padding: 5px;
+  color: white;
+  display: inline-block;
+  font-size: 8rem;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
+    0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
 h2 {
-    font-size: 8rem;
+  font-size: 8rem;
 }
 
-h1:nth-child(0n+0),
-h2:nth-child(5n+0) {
-    animation: animateGlithcy 0s 0s linear alternate-reverse infinite;
+h1:nth-child(0n + 0),
+h2:nth-child(5n + 0) {
+  animation: animateGlithcy 0s 0s linear alternate-reverse infinite;
 }
 
-h1:nth-child(0n+1),
-h2:nth-child(5n+1) {
-    animation: animateGlithcy 0.5s 0.2s linear alternate-reverse infinite;
+h1:nth-child(0n + 1),
+h2:nth-child(5n + 1) {
+  animation: animateGlithcy 0.5s 0.2s linear alternate-reverse infinite;
 }
 
-h1:nth-child(0n+2),
-h2:nth-child(5n+2) {
-    animation: animateGlithcy 1s 0.4s linear alternate-reverse infinite;
+h1:nth-child(0n + 2),
+h2:nth-child(5n + 2) {
+  animation: animateGlithcy 1s 0.4s linear alternate-reverse infinite;
 }
 
-h1:nth-child(0n+3),
-h2:nth-child(5n+3) {
-    animation: animateGlithcy 1.5s 0.6s linear alternate-reverse infinite;
+h1:nth-child(0n + 3),
+h2:nth-child(5n + 3) {
+  animation: animateGlithcy 1.5s 0.6s linear alternate-reverse infinite;
 }
 
-h1:nth-child(0n+4),
-h2:nth-child(5n+4) {
-    animation: animateGlithcy 2s 0.8s linear alternate-reverse infinite;
+h1:nth-child(0n + 4),
+h2:nth-child(5n + 4) {
+  animation: animateGlithcy 2s 0.8s linear alternate-reverse infinite;
 }
 
-h1:nth-child(0n+5),
-h2:nth-child(5n+5) {
-    animation: animateGlithcy 1s 2.5s linear alternate-reverse infinite;
+h1:nth-child(0n + 5),
+h2:nth-child(5n + 5) {
+  animation: animateGlithcy 1s 2.5s linear alternate-reverse infinite;
 }
-
 
 @keyframes animateGlithcy {
-    0% {
-        opacity: 0.1;
-        background-position: 0 0;
-        filter: hue-rotate(0deg);
-    }
+  0% {
+    opacity: 0.1;
+    background-position: 0 0;
+    filter: hue-rotate(0deg);
+  }
 
-    10% {
-        background-position: 5px 0;
-    }
+  10% {
+    background-position: 5px 0;
+  }
 
-    20% {
-        background-position: -5px 0;
-    }
+  20% {
+    background-position: -5px 0;
+  }
 
-    30% {
-        background-position: 15px 0;
-    }
+  30% {
+    background-position: 15px 0;
+  }
 
-    40% {
-        background-position: -5px 0;
-    }
+  40% {
+    background-position: -5px 0;
+  }
 
-    50% {
-        background-position: -25px 0;
-    }
+  50% {
+    background-position: -25px 0;
+  }
 
-    60% {
-        background-position: -50px 0;
-    }
+  60% {
+    background-position: -50px 0;
+  }
 
-    70% {
-        background-position: 0 -20px;
-    }
+  70% {
+    background-position: 0 -20px;
+  }
 
-    80% {
-        background-position: -60px -20px;
-    }
+  80% {
+    background-position: -60px -20px;
+  }
 
-    81% {
-        background-position: 0 0;
-    }
+  81% {
+    background-position: 0 0;
+  }
 
-    100% {
-        opacity: 1;
-        background-position: 0 0;
-        filter: hue-rotate(360deg);
-    }
+  100% {
+    opacity: 1;
+    background-position: 0 0;
+    filter: hue-rotate(360deg);
+  }
 }
